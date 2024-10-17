@@ -33,7 +33,7 @@ body{
   );
   color: white;
   background-size: 100% 600%; /* Ajuste para permitir o movimento contínuo */
-  animation: moverGradiente 10s linear infinite; /* Animação para mover o gradiente */
+  animation: moverGradiente 5s linear infinite; /* Animação para mover o gradiente */
   height: 100vh; /* Para preencher toda a página */
   margin: 0;
 }
