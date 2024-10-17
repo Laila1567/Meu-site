@@ -26,10 +26,7 @@ body{
     purple,
     cyan,
     blue,
-    rgb(243, 50, 195),
-    purple,
-    cyan,
-    blue
+    rgb(243, 50, 195)
   );
   color: white;
   background-size: 100% 600%; /* Ajuste para permitir o movimento contínuo */
