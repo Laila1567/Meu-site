@@ -1,0 +1,65 @@
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+#FotoPerfil {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+p1{
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+
+body{
+  background: linear-gradient(
+     rgb(243, 50, 195),
+    purple,
+    cyan,
+    blue,
+    rgb(243, 50, 195),
+    purple,
+    cyan,
+    blue,
+    rgb(243, 50, 195),
+    purple,
+    cyan,
+    blue
+  );
+  color: white;
+  background-size: 100% 600%; /* Ajuste para permitir o movimento contínuo */
+  animation: moverGradiente 10s linear infinite; /* Animação para mover o gradiente */
+  height: 100vh; /* Para preencher toda a página */
+  margin: 0;
+}
+
+@keyframes moverGradiente {
+  0% {
+    background-position: 0% 0%; /*Aqui eu to definindo que o inicio da animação vai ser 0% 0%, ou seja, que a variação de cores vai começar com 0%*/
+  }
+  100% {
+    background-position: 0% 100%; /*Aqui pelo o que eu entendi ele vai sair do 0% ate o 100% cobrindo toda a pagina*/
+}
+}
+section {
+  margin-bottom: 2rem; /* Espaçamento entre as seções */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 2rem; /* Espaçamento interno das seções */
+  border-bottom: 10px solid rgba(0, 0, 0, 0.3); /* Linha divisória/sombra fake na parte inferior da seção */
+  background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+}
+.centralizado{
+    text-align: center;
+    }
+
+    
+main{
+  width: 900px;
+  margin: 0 auto;
+
+}
